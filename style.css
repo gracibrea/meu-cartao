@@ -3,16 +3,23 @@
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     background: #a0e8f7;
-    text-align: center;
     font-size: 24px;
     font-weight: 400;
     color: #5C5C5C;
     padding: 1em 0;
 }
 
-h1 {
-    margin-left: 33%;
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;    
     width: 495px;
     animation: digitando 5s steps(25), blink .4s infinite alternate;
     white-space: nowrap;
@@ -79,7 +86,12 @@ li a {
 
 @media screen and (min-width: 370px) and (max-width: 530px){
     ul {
-       max-width: 60%;
+       max-width: 80vw;
+    }
+    h1 {
+        margin: 0;
+        width: 100vw;
+        flex-wrap: inherit;
     }
   }
 
