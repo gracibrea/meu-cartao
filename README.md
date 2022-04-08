@@ -1,5 +1,7 @@
 # Meu Cartão
 
-Projeto desenvolvido na aula ao vivo da Imersao Dev da Alura com deploy no Vercel
+Projeto desenvolvido na aula ao vivo da Imersao Dev da Alura com deploy no Vercel.
 
-![image](https://user-images.githubusercontent.com/88933480/159073067-ca7a46b3-4523-4d8a-b68b-ec0164b7a86e.png)
+Foi adicionada animação com a lib animate.css
+
+![20220408_151217](https://user-images.githubusercontent.com/88933480/162499726-9ff4f9a0-72f0-4f86-8275-49a36bbb3c28.gif)
