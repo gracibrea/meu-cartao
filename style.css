@@ -15,6 +15,7 @@ header {
     padding: 1em 0;
 }
 
+
 main {
     text-align: center;
     background: rgb(2,0,36);
@@ -60,7 +61,7 @@ li a {
     color: #5C5C5C;
 }
 
-@media screen and (min-width: 370px) and (max-width: 530px){
+@media screen and (min-width: 320px) and (max-width: 630px){
     ul {
        max-width: 80vw;
     }
